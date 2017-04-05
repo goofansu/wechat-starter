@@ -22,7 +22,7 @@ set :repo_url, 'https://github.com/goofansu/wechat-starter'
 # set :pty, true
 
 # Default value for :linked_files is []
-append :linked_files, 'config/application.yml'
+append :linked_files, 'config/application.yml', 'public/MP_verify_e1RFEAU2b5no6OxE.txt'
 
 # Default value for linked_dirs is []
 append :linked_dirs, 'log', 'tmp/pids', 'tmp/cache', 'tmp/sockets', 'public/system'
