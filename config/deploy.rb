@@ -1,5 +1,5 @@
 # config valid only for current version of Capistrano
-lock '~> 3.8.0'
+lock '~> 3.9.1'
 
 set :application, 'wechat_starter'
 # replace your repo_url and do not forget add machine id_rsa.pub to Settings->Deploy keys
@@ -7,6 +7,7 @@ set :repo_url, 'https://github.com/goofansu/wechat-starter'
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
+set :branch, 'capistrano_deploy'
 
 # Default deploy_to directory is /var/www/my_app_name
 # set :deploy_to, "/var/www/my_app_name"
