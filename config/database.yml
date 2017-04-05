@@ -81,3 +81,5 @@ test:
 production:
   <<: *default
   database: wechat_starter_production
+  username: wechat_starter
+  password: <%= ENV['WECHAT_STARTER_DATABASE_PASSWORD'] %>
