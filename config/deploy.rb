@@ -1,5 +1,5 @@
 # config valid only for current version of Capistrano
-lock '~> 3.9.1'
+lock '~> 3.11.0'
 
 set :application, 'wechat_starter'
 # replace your repo_url and do not forget add machine id_rsa.pub to Settings->Deploy keys
