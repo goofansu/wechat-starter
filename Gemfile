@@ -5,7 +5,7 @@ gem 'rails', '~> 4.2.6'
 
 # Use sqlite3 as the database for Active Record
 # gem 'sqlite3'
-gem 'pg'
+gem 'pg', '~> 0.21.0'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
@@ -51,7 +51,8 @@ end
 gem 'figaro'
 
 # wechat related
-gem 'wechat'
+# bundle config local.wechat /Users/guochunzhong/git/oss/wechat/
+gem 'wechat', git: 'https://github.com/Eric-Guo/wechat', branch: :master
 gem 'wx_pay'
 gem 'omniauth-wechat-oauth2'
 
