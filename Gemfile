@@ -51,7 +51,8 @@ gem 'pry', group: :development
 
 gem 'figaro'
 gem 'devise'
-gem 'wechat'
+# bundle config local.wechat /Users/guochunzhong/git/oss/wechat/
+gem 'wechat', git: 'https://github.com/Eric-Guo/wechat', branch: :master
 gem 'wx_pay'
 gem 'weui-rails'
 gem 'omniauth-wechat-oauth2'
