@@ -274,7 +274,7 @@ DEPENDENCIES
   omniauth-wechat-oauth2
   pg
   pry
-  puma (~> 3.12)
+  puma (~> 3.12, >= 3.12.2)
   rails (~> 5.2.3)
   sass-rails (~> 5.1, >= 5.1.0)
   selenium-webdriver (>= 3.142.3)
